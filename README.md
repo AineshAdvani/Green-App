@@ -1,31 +1,7 @@
-# Real Estate NFT DApp
+so this is the folder, in test folder there are tests for contract, src folder is for react, script folder has a code to deploy the code into blockchain, contracts folder has 2 contracts
 
-## Technology Stack & Tools
+in one terminal I run: npx hardhat node, this one to get the blockchain, in other one I deploy the contracts into that blockchain with this : npx hardhat run scripts/deploy.js —network localhost, and in other just running react
 
-- Solidity (Writing Smart Contracts & Tests)
-- Javascript (React & Testing)
-- [Hardhat](https://hardhat.org/) (Development Framework)
-- [Ethers.js](https://docs.ethers.io/v5/) (Blockchain Interaction)
-- [React.js](https://reactjs.org/) (Frontend Framework)
+The base project that we uses - https://www.youtube.com/watch?v=C4blK6X-D_4
 
-## Requirements For Initial Setup
-- Install [NodeJS](https://nodejs.org/en/)
-
-## Setting Up
-### 1. Clone/Download the Repository
-
-### 2. Install Dependencies:
-`$ npm install`
-
-### 3. Run tests
-`$ npx hardhat test`
-
-### 4. Start Hardhat node
-`$ npx hardhat node`
-
-### 5. Run deployment script
-In a separate terminal execute:
-`$ npx hardhat run ./scripts/deploy.js --network localhost`
-
-### 7. Start frontend
-`$ npm run start`
+Here is the github of the same https://github.com/dappuniversity/millow.git 
